@@ -115,8 +115,8 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col md:flex-row text-sm mt-6 font-mono">
-                <div className="w-1/4 text-gray-500">2003 – 2012</div>
-                <div className="w-3/4 space-y-2">
+                <div className="md:w-1/4 text-gray-500">2003 – 2012</div>
+                <div className="md:w-3/4 space-y-2">
                   <p>Web Designer – Freelance</p>
                   <p className="text-gray-400">
                     Designed, developed, and maintained websites, focusing on image editing, layout creation, and prototyping for web systems.
@@ -133,8 +133,8 @@ export default function Home() {
               <h2 className="font-semibold">Education</h2>
 
               <div className="flex flex-col md:flex-row text-sm mt-6 font-mono">
-                <div className="w-1/4 text-gray-500">2006 – 2008</div>
-                <div className="w-3/4 space-y-2">
+                <div className="md:w-1/4 text-gray-500">2006 – 2008</div>
+                <div className="md:w-3/4 space-y-2">
                   <ExternalLink
                     href="https://www.mesquita.com.br"
                     text="Technical Certificate in Information Technology – Mesquita"
