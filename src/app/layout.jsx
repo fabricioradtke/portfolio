@@ -7,9 +7,12 @@ const geistSans = localFont({
   weight: "100 900",
 });
 const firaCode = localFont({
-  src: "../../public/fonts/FiraCode-Regular.woff",
+  src: [
+    { path: "../../public/fonts/FiraCode-VF.woff2", format: "woff2" },
+    { path: "../../public/fonts/FiraCode-VF.woff", format: "woff" }
+  ],
   variable: "--font-fira-code",
-  weight: "100 900",
+  weight: "300 700",
 });
 
 export const metadata = {
